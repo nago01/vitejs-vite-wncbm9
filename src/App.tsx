@@ -37,7 +37,7 @@ function App() {
     }
   };
 
-  const handleClick = (e, index) => {
+  const handleClick = (e : MouseEvent, index) => {
     console.log(e, index);
     if (turn) {
       arr[index] = 0;
